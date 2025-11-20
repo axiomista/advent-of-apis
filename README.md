@@ -18,6 +18,14 @@ Track legislation across all 50 U.S. states and Congress with access to bills, a
 ### [National Parks Service API](./nps)
 Authoritative data about U.S. national parks including alerts, activities, campgrounds, visitor centers, and events.
 
+## 🏘️ 🍎 🏥 Health & Social Services
+
+### [USDA Food Access Research Atlas API](./foodaccess)
+Census-tract level data on food deserts and food access across America, mapping areas with limited access to affordable and nutritious food.
+
+### [HUD Multifamily Assisted Housing API](./housing)
+Federally-assisted housing properties including Section 202 supportive housing for the elderly, with data on locations, units, inspection scores, and demographics.
+
 ## 🥼 🦠 ⛰️ Scientific & Environmental Data
 
 ### [USGS Water Services API](./water)
@@ -59,6 +67,8 @@ Two-Line Element (TLE) data for satellites and space objects used for tracking s
 | Civic Info | API Key | `https://www.googleapis.com/civicinfo/v2` | Google API limits |
 | LegiScan | API Key | `https://api.legiscan.com/` | Varies by plan |
 | NPS | API Key (header) | `https://developer.nps.gov/api/v1` | 1000 requests/hour |
+| Food Access | None | `https://gisportal.ers.usda.gov/server/rest/services/FARA` | None specified |
+| Housing | None | `https://services.arcgis.com/.../Multifamily_Properties_Assisted/FeatureServer` | None specified |
 | Water | None | `https://waterservices.usgs.gov/rest` | None specified |
 | Earthquake | None | `https://earthquake.usgs.gov/fdsnws/event/1` | None specified |
 | World Bank | None | `https://api.worldbank.org/v2` | None specified |
