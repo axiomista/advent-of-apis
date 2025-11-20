@@ -1,20 +1,26 @@
-# USGS Earthquake Catalog API
+# 🌍 USGS Earthquake Catalog API
 
-## Description
+## 📖 Description
 
-The USGS Earthquake API provides access to earthquake event data implementing the FDSN Event Web Service Specification. It enables custom searches for earthquakes worldwide using various parameters including location, magnitude, time ranges, and depth.
+Track earthquakes as they happen worldwide! The USGS Earthquake API provides real-time and historical seismic event data from across the globe. Search for earthquakes by location, magnitude, time range, and depth to build powerful monitoring and analysis applications.
 
-## Base URL
+✨ **Best For:** Real-time alerts, seismic research, emergency response, and educational applications
+
+> 💡 **Did you know?** The USGS detects and reports on thousands of earthquakes every year, from tiny tremors to major events, providing critical data for scientists and the public.
+
+## 📍 Base URL
 
 ```
 https://earthquake.usgs.gov/fdsnws/event/1
 ```
 
-## Authentication
+## 🔑 Authentication
 
-No API key required.
+No API key required! 🎉 Just start making requests and accessing earthquake data immediately.
 
-## Example Usage
+---
+
+## 💻 Example Usage
 
 ### Get Recent Earthquakes Above Magnitude 5
 
@@ -94,14 +100,22 @@ earthquakes = response.json()
 print(f"Found {earthquakes['metadata']['count']} earthquakes")
 ```
 
-## Common Parameters
+> 💡 **Pro Tip:** The `maxradius` parameter uses degrees (not kilometers). One degree is approximately 111 km at the equator. For city-level searches, try values between 0.5 and 2 degrees!
 
-- `format` - Output format: geojson, xml, csv, kml, text
-- `starttime` / `endtime` - ISO8601 date format (YYYY-MM-DD)
-- `minmagnitude` / `maxmagnitude` - Magnitude range
-- `latitude` / `longitude` / `maxradius` - Circular search area
+---
 
-## Application Examples
+## 🔧 Common Parameters
+
+- 📄 `format` - Output format: geojson, xml, csv, kml, text
+- 📅 `starttime` / `endtime` - ISO8601 date format (YYYY-MM-DD)
+- 📊 `minmagnitude` / `maxmagnitude` - Magnitude range
+- 📍 `latitude` / `longitude` / `maxradius` - Circular search area (in degrees)
+
+⚠️ **Note:** For more detailed parameter information and advanced filtering options, see [USAGE.md](./USAGE.md)
+
+---
+
+## 🚀 Application Examples
 
 **1. Real-time Earthquake Alert App**
 Notify users of recent earthquakes in their area or globally.
@@ -167,7 +181,10 @@ Support property and casualty insurance analysis.
 - Track events for claims processing
 - Generate risk reports by portfolio
 
-## Resources
+---
 
-- Documentation: https://earthquake.usgs.gov/fdsnws/event/1/
-- Latest Earthquakes: https://earthquake.usgs.gov/earthquakes/map/
+## 📚 Resources
+
+- 📖 **API Documentation:** https://earthquake.usgs.gov/fdsnws/event/1/
+- 🗺️ **Latest Earthquakes Map:** https://earthquake.usgs.gov/earthquakes/map/
+- 📘 **Detailed Usage Guide:** [USAGE.md](./USAGE.md)

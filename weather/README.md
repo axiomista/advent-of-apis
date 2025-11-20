@@ -1,20 +1,28 @@
-# WeatherAPI
+# ⛅ WeatherAPI
 
-## Description
+## 📖 Description
 
-WeatherAPI provides weather and geolocation data in JSON and XML formats. Access current weather conditions, forecasts, historical weather data, and location-based weather intelligence for applications and integrations.
+Get real-time weather data from around the world! WeatherAPI provides comprehensive weather and geolocation data in JSON and XML formats. Access current conditions, accurate forecasts, historical weather data, and location-based weather intelligence for any application.
 
-## Base URL
+✨ **Best For:** Weather apps, smart home automation, travel planning, and agricultural monitoring
+
+> 💡 **Did you know?** WeatherAPI provides weather data for over 4 million locations worldwide with updates every 15 minutes and forecasts up to 14 days ahead!
+
+## 📍 Base URL
 
 ```
 https://api.weatherapi.com/v1
 ```
 
-## Authentication
+## 🔑 Authentication
 
 Requires an API key passed as the `key` parameter.
 
-## Example Usage
+**Get your API key:** https://www.weatherapi.com/signup.aspx
+
+---
+
+## 💻 Example Usage
 
 ### Get Current Weather
 
@@ -153,24 +161,38 @@ for location in locations:
     print(f"{location['name']}, {location['region']}, {location['country']}")
 ```
 
-## Common Endpoints
+---
 
-- `/current.json` - Current weather
-- `/forecast.json` - Weather forecast (up to 14 days)
-- `/search.json` - Location search
-- `/history.json` - Historical weather data
-- `/timezone.json` - Timezone information
-- `/astronomy.json` - Astronomy data (sunrise, sunset, moon phases)
+## 🌐 Available Endpoints
 
-## Common Parameters
+- 🌡️ `/current.json` - Current weather conditions
+- 📅 `/forecast.json` - Weather forecast (up to 14 days)
+- 🔍 `/search.json` - Location search and autocomplete
+- 📜 `/history.json` - Historical weather data
+- 🕐 `/timezone.json` - Timezone information
+- 🌙 `/astronomy.json` - Astronomy data (sunrise, sunset, moon phases)
+- 🌊 `/marine.json` - Marine and tide data
+- 🏃 `/sports.json` - Sports weather data
+- 🌬️ `/future.json` - Future weather (up to 365 days)
+
+> 💡 **Pro Tip:** You can query locations using city names, coordinates (lat,long), IP addresses, postal codes, or even airport codes (IATA)!
+
+---
+
+## 🔧 Common Parameters
 
 - `key` (required) - Your API authentication key
-- `q` - Location query (city name, coordinates, IP address, postal code)
+- `q` - Location query (city name, coordinates, IP, postal code, airport code)
 - `days` - Number of forecast days (1-14)
 - `aqi` - Include air quality data (yes/no)
 - `alerts` - Include weather alerts (yes/no)
+- `dt` - Date for history/future queries (YYYY-MM-DD)
 
-## Application Examples
+⚠️ **Note:** For complete parameter details, rate limits, and response formats, see [USAGE.md](./USAGE.md)
+
+---
+
+## 🚀 Application Examples
 
 **1. Personal Weather Dashboard**
 Display current conditions and forecasts for user's location.
@@ -262,7 +284,11 @@ Compare weather patterns across locations and time periods.
 - Relocation weather research
 - Long-term trend visualization
 
-## Resources
+---
 
-- Documentation: https://www.weatherapi.com/docs/
-- Sign up: https://www.weatherapi.com/signup.aspx
+## 📚 Resources
+
+- 📖 **API Documentation:** https://www.weatherapi.com/docs/
+- 🔑 **Sign Up:** https://www.weatherapi.com/signup.aspx
+- 💰 **Pricing:** https://www.weatherapi.com/pricing.aspx
+- 📘 **Detailed Usage Guide:** [USAGE.md](./USAGE.md)

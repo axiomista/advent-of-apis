@@ -1,20 +1,28 @@
-# AviationStack API
+# ✈️ AviationStack API
 
-## Description
+## 📖 Description
 
-AviationStack is a RESTful JSON-based API that delivers comprehensive global aviation data including real-time flight status, historical flight data, future schedules, and detailed information about airlines, airports, aircraft, routes, and more. Real-time data is updated within 30-60 seconds from the source.
+Access comprehensive global aviation data in real-time! AviationStack delivers flight status, schedules, airline information, and airport details from thousands of sources worldwide. Track flights, monitor airports, research routes, and build powerful aviation applications with data updated within 30-60 seconds.
 
-## Base URL
+✨ **Best For:** Flight tracking, travel apps, aviation analytics, and airline operations
+
+> 💡 **Did you know?** AviationStack covers 10,000+ airports, 13,000 airlines, and 19,000 aircraft registrations across 250+ countries!
+
+## 📍 Base URL
 
 ```
 http://api.aviationstack.com/v1
 ```
 
-## Authentication
+## 🔑 Authentication
 
 Requires an API key passed as the `access_key` parameter.
 
-## Coverage
+**Get your API key:** https://aviationstack.com/signup
+
+---
+
+## 🌍 Coverage
 
 - 10,000+ airports
 - 19,000 aircraft registrations
@@ -23,7 +31,9 @@ Requires an API key passed as the `access_key` parameter.
 - 9,000 cities
 - 250+ countries
 
-## Example Usage
+---
+
+## 💻 Example Usage
 
 ### Get Real-Time Flight Status
 
@@ -131,7 +141,13 @@ for airline in airlines['data']:
     print(f"Country: {airline['country_name']}")
 ```
 
-## Common Parameters
+> 💡 **Pro Tip:** Use IATA codes (3-letter) for faster, more reliable queries. ICAO codes (4-letter) are also supported!
+
+⚠️ **Note:** For complete parameter details and rate limits, see [USAGE.md](./USAGE.md)
+
+---
+
+## 🔧 Common Parameters
 
 - `access_key` (required) - Your API authentication key
 - `flight_iata` / `flight_icao` - Filter by specific flight
@@ -139,7 +155,9 @@ for airline in airlines['data']:
 - `airline_name` / `airline_iata` - Filter by airline
 - `dep_iata` / `arr_iata` - Filter by departure/arrival airport
 
-## Application Examples
+---
+
+## 🚀 Application Examples
 
 **1. Flight Tracking Dashboard**
 Real-time flight monitoring platform for travelers.
@@ -213,7 +231,10 @@ Business aviation management tool.
 - Reporting for travel budgets
 - Integration with corporate calendar
 
-## Resources
+---
 
-- Documentation: https://aviationstack.com/documentation
-- Sign up: https://aviationstack.com/signup
+## 📚 Resources
+
+- 📖 **API Documentation:** https://aviationstack.com/documentation
+- 🔑 **Sign Up:** https://aviationstack.com/signup
+- 📘 **Detailed Usage Guide:** [USAGE.md](./USAGE.md)

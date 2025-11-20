@@ -1,20 +1,26 @@
-# CityBikes API
+# 🚲 CityBikes API
 
-## Description
+## 📖 Description
 
-CityBikes provides access to real-time bike-sharing network data from cities worldwide. The API aggregates information from various bike-sharing operators, delivering data about station locations, available bikes, empty slots, and network details across multiple cities.
+Discover bike-sharing networks around the world in real-time! CityBikes aggregates data from over 600 bike-sharing systems across hundreds of cities globally. Access live information about station locations, available bikes, empty docking slots, and network details. Perfect for building mobility apps, transit tools, and sustainable transportation solutions.
 
-## Base URL
+✨ **Best For:** Bike-finding apps, transit planners, sustainable mobility tools, and urban transportation analytics
+
+> 💡 **Did you know?** CityBikes tracks over 600 bike-sharing networks in cities worldwide, from New York's Citi Bike to Paris's Vélib', London's Santander Cycles, and hundreds more!
+
+## 📍 Base URL
 
 ```
 http://api.citybik.es/v2
 ```
 
-## Authentication
+## 🔑 Authentication
 
-No API key required.
+No API key required! 🎉 Start accessing bike-sharing data immediately!
 
-## Example Usage
+---
+
+## 💻 Example Usage
 
 ### List All Networks
 
@@ -78,7 +84,40 @@ fetch(url)
   .catch(error => console.error('Error:', error));
 ```
 
-## Application Examples
+---
+
+## 🌐 Available Endpoints
+
+- 🗺️ `/networks` - List all bike-sharing networks worldwide
+- 🚲 `/networks/{id}` - Get detailed information about a specific network including stations
+
+> 💡 **Pro Tip:** Use the `fields` parameter to request only the data you need: `?fields=id,name,location,stations`. This reduces response size and improves performance!
+
+---
+
+## 🔧 Common Query Patterns
+
+- `fields` - Specify which fields to return (comma-separated)
+- Network IDs are unique identifiers (e.g., `divvy`, `citi-bike-nyc`, `velib`)
+
+---
+
+## 🚴 Popular Networks
+
+- **citi-bike-nyc** - New York City (Citi Bike)
+- **divvy** - Chicago (Divvy)
+- **bay-wheels** - San Francisco Bay Area (Bay Wheels)
+- **velib** - Paris (Vélib')
+- **santander-cycles** - London (Santander Cycles)
+- **bicing** - Barcelona (Bicing)
+- **bixi-montreal** - Montreal (BIXI)
+- **capital-bikeshare** - Washington DC (Capital Bikeshare)
+
+⚠️ **Note:** For complete network listings, station data format, and best practices, see [USAGE.md](./USAGE.md)
+
+---
+
+## 🚀 Application Examples
 
 **1. Bike Availability Finder**
 Real-time bike finding app for commuters and casual riders.
@@ -116,8 +155,11 @@ Integrate bike sharing with other transit options.
 - Suggest bike-friendly routes
 - Integration with real-time transit data
 
-## Resources
+---
 
-- Documentation: http://api.citybik.es/v2/
-- All responses are in JSON format
-- Field filtering supported via `?fields=` parameter
+## 📚 Resources
+
+- 📖 **API Documentation:** http://api.citybik.es/v2/
+- 🌐 **Project Website:** https://citybik.es/
+- 💻 **GitHub:** https://github.com/eskerda/pybikes
+- 📘 **Detailed Usage Guide:** [USAGE.md](./USAGE.md)

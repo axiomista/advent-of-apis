@@ -1,20 +1,28 @@
-# LegiScan API
+# 🏛️ LegiScan API
 
-## Description
+## 📖 Description
 
-LegiScan provides access to legislative tracking data across all 50 U.S. states and Congress. The API enables developers to search for bills, track legislation, access bill texts and amendments, view roll call votes, and monitor legislative activity in real-time.
+Track legislation across America in real-time! LegiScan provides comprehensive access to bills, votes, and legislative activity from all 50 state legislatures and the U.S. Congress. Monitor bill progress, access full text documents, track roll call votes, and stay informed about the laws being made in your state and nationwide.
 
-## Base URL
+✨ **Best For:** Legislative tracking, policy research, advocacy tools, and government transparency apps
+
+> 💡 **Did you know?** LegiScan tracks over 1 million pieces of legislation across all U.S. jurisdictions, making it one of the most comprehensive legislative databases available!
+
+## 📍 Base URL
 
 ```
 https://api.legiscan.com/
 ```
 
-## Authentication
+## 🔑 Authentication
 
 Requires an API key that must be included in each request.
 
-## Example Usage
+**Get your API key:** https://legiscan.com/legiscan
+
+---
+
+## 💻 Example Usage
 
 ### Get Bill by ID
 
@@ -153,7 +161,11 @@ if master_list['status'] == 'OK':
             print(f"{bill.get('bill_number')}: {bill.get('title')}")
 ```
 
-## Common Operations (op parameter)
+> 💡 **Pro Tip:** Use the `getMasterList` operation to get all bills for a session, then cache the list and query individual bills as needed. This is much more efficient than repeated searches!
+
+---
+
+## 🔧 Common Operations (op parameter)
 
 The API uses both "get" and "process" prefixed operations:
 
@@ -176,6 +188,10 @@ The API uses both "get" and "process" prefixed operations:
 - `state` - Two-letter state code (e.g., CA, TX, NY)
 - `query` - Search query string
 
+⚠️ **Note:** For detailed operation parameters and response structures, see [USAGE.md](./USAGE.md)
+
+---
+
 ## Response Format
 
 All responses are in JSON format with a `status` field indicating success or failure:
@@ -186,7 +202,9 @@ All responses are in JSON format with a `status` field indicating success or fai
 }
 ```
 
-## Application Examples
+---
+
+## 🚀 Application Examples
 
 **1. Legislative Tracking & Alert System**
 Monitor specific bills or topics and send notifications when status changes occur.
@@ -248,9 +266,12 @@ Power investigative journalism with comprehensive legislative data.
 - Analyze amendment patterns
 - Discover identical bill language across states
 
-## Resources
+---
 
-- Documentation: https://legiscan.com/legiscan
-- API User Manual: https://legiscan.com/misc/LegiScan_API_User_Manual.pdf
-- API Registration: https://legiscan.com/legiscan
-- API Support: api@legiscan.com
+## 📚 Resources
+
+- 📖 **API Documentation:** https://legiscan.com/legiscan
+- 📕 **API User Manual:** https://legiscan.com/misc/LegiScan_API_User_Manual.pdf
+- 🔑 **API Registration:** https://legiscan.com/legiscan
+- 📧 **API Support:** api@legiscan.com
+- 📘 **Detailed Usage Guide:** [USAGE.md](./USAGE.md)

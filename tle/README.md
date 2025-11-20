@@ -1,20 +1,26 @@
-# TLE (Two-Line Element) Satellite API
+# 🛰️ TLE (Two-Line Element) Satellite API
 
-## Description
+## 📖 Description
 
-The TLE API provides access to Two-Line Element (TLE) data for satellites and space objects. TLE data is used to track satellite positions and predict their orbital paths. This API allows you to query satellite information, retrieve TLE data, and track various space objects including the ISS, weather satellites, GPS satellites, and more.
+Track satellites in real-time with precision orbital data! The TLE API provides comprehensive Two-Line Element (TLE) data for thousands of satellites and space objects. TLE data is the standard format used worldwide to track satellite positions and predict orbital paths. Perfect for satellite tracking, astronomy, communications, and space situational awareness.
 
-## Base URL
+✨ **Best For:** Satellite tracking apps, amateur radio operations, astrophotography planning, and space education
+
+> 💡 **Did you know?** TLE data gets updated multiple times per day as ground stations track satellites, ensuring you always have the most accurate orbital information. The ISS alone completes 15.5 orbits around Earth every day!
+
+## 📍 Base URL
 
 ```
 https://tle.ivanstanojevic.me/api
 ```
 
-## Authentication
+## 🔑 Authentication
 
-No API key required for basic usage.
+No API key required! 🎉 Start tracking satellites immediately!
 
-## Example Usage
+---
+
+## 💻 Example Usage
 
 ### Get TLE Data for ISS
 
@@ -146,33 +152,51 @@ fetch(url)
   .catch(error => console.error('Error:', error));
 ```
 
-## Common Endpoints
+---
 
-- `/tle/{id}` - Get TLE data for specific satellite(s) by NORAD ID
-- `/tle?search={query}` - Search for satellites by name
-- `/tle` - Get all available TLE data (large response)
+## 🌐 Available Endpoints
 
-## Query Parameters
+- 🛰️ `/tle/{id}` - Get TLE data for specific satellite(s) by NORAD ID
+- 🔍 `/tle?search={query}` - Search for satellites by name
+- 📋 `/tle` - Get all available TLE data (warning: very large response!)
 
-- `search` - Search satellites by name
-- `page-size` - Limit number of results
+---
+
+## 🔧 Query Parameters
+
+- `search` - Search satellites by name or identifier
+- `page-size` - Limit number of results per page
 - `page` - Page number for pagination
 
-## Popular Satellite NORAD IDs
+---
 
-- 25544 - International Space Station (ISS)
-- 25994 - Hubble Space Telescope
-- 20580 - NOAA-15 Weather Satellite
-- 43013 - Starlink-1007
-- 37849 - GOES-16 Weather Satellite
+## 📡 Popular Satellite NORAD IDs
 
-## Understanding TLE Format
+- **25544** - International Space Station (ISS)
+- **25994** - Hubble Space Telescope
+- **20580** - NOAA-15 Weather Satellite
+- **43013** - Starlink-1007
+- **37849** - GOES-16 Weather Satellite
+- **28654** - GPS BIIR-2 (PRN 13)
+- **33591** - NOAA-19 Weather Satellite
 
-TLE data consists of two lines of formatted text containing orbital elements:
-- Line 1: Satellite catalog number, epoch, ballistic coefficient, etc.
-- Line 2: Inclination, right ascension, eccentricity, argument of perigee, mean anomaly, mean motion
+> 💡 **Pro Tip:** You can query multiple satellites at once by separating NORAD IDs with commas: `/tle/25544,25994,28654`
 
-## Application Examples
+---
+
+## 📚 Understanding TLE Format
+
+TLE (Two-Line Element) data consists of two lines of formatted text containing orbital elements:
+
+**Line 1:** Satellite catalog number, classification, launch year, launch number, epoch, ballistic coefficient, drag term, ephemeris type, element set number
+
+**Line 2:** Inclination, right ascension of ascending node, eccentricity, argument of perigee, mean anomaly, mean motion, revolution number
+
+⚠️ **Note:** For complete TLE format details, parameter options, and usage patterns, see [USAGE.md](./USAGE.md)
+
+---
+
+## 🚀 Application Examples
 
 **1. Satellite Tracker & Visualizer**
 Real-time satellite tracking and orbital visualization.
@@ -273,8 +297,12 @@ Identify satellites visible overhead using smartphone.
 - Best viewing time alerts
 - Photograph integration and logging
 
-## Resources
+---
 
-- Documentation: https://tle.ivanstanojevic.me/#/docs
-- TLE Format Explanation: https://en.wikipedia.org/wiki/Two-line_element_set
-- Satellite Tracking: https://www.n2yo.com/
+## 📚 Resources
+
+- 📖 **API Documentation:** https://tle.ivanstanojevic.me/#/docs
+- 📘 **TLE Format Explanation:** https://en.wikipedia.org/wiki/Two-line_element_set
+- 🛰️ **Satellite Tracking:** https://www.n2yo.com/
+- 🌐 **CelesTrak (TLE Source):** https://celestrak.org/
+- 📘 **Detailed Usage Guide:** [USAGE.md](./USAGE.md)

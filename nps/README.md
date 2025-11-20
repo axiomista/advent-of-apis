@@ -1,20 +1,28 @@
-# National Parks Service API
+# 🏞️ National Parks Service API
 
-## Description
+## 📖 Description
 
-The NPS API provides authoritative National Park Service data accessible through a free API key. Access information about parks, alerts, activities, campgrounds, visitor centers, and more for integration into applications, maps, and websites.
+Explore America's national treasures with authoritative data from the National Park Service! The NPS API provides comprehensive information about parks, alerts, activities, campgrounds, visitor centers, and more. Perfect for building trip planners, educational tools, and outdoor recreation apps.
 
-## Base URL
+✨ **Best For:** Trip planning apps, park discovery tools, educational platforms, and outdoor recreation guides
+
+> 💡 **Did you know?** The National Park Service manages over 400 parks, monuments, and historic sites across the United States, welcoming more than 300 million visitors annually!
+
+## 📍 Base URL
 
 ```
 https://developer.nps.gov/api/v1
 ```
 
-## Authentication
+## 🔑 Authentication
 
 Requires an API key sent in the HTTP request header as `X-Api-Key`.
 
-## Example Usage
+**Get your API key:** https://www.nps.gov/subjects/developer/get-started.htm
+
+---
+
+## 💻 Example Usage
 
 ### Get Park Alerts
 
@@ -144,23 +152,34 @@ if data['data']:
         print(f"  - {park['fullName']}")
 ```
 
-## Common Endpoints
+---
 
-- `/parks` - Park information
-- `/alerts` - Current park alerts
-- `/campgrounds` - Campground details
-- `/visitorcenters` - Visitor center information
-- `/activities` - Available activities
-- `/events` - Park events
+## 🌐 Available Endpoints
 
-## Common Parameters
+- 🏞️ `/parks` - Park information
+- ⚠️ `/alerts` - Current park alerts
+- ⛺ `/campgrounds` - Campground details
+- ℹ️ `/visitorcenters` - Visitor center information
+- 🥾 `/activities` - Available activities
+- 📅 `/events` - Park events
+
+> 💡 **Pro Tip:** Use 4-letter park codes for faster queries! Examples: `yell` (Yellowstone), `grca` (Grand Canyon), `yose` (Yosemite), `zion` (Zion)
+
+---
+
+## 🔧 Common Parameters
 
 - `parkCode` - 4-letter park code (e.g., yell, grca, yose)
 - `stateCode` - 2-letter state code (e.g., CA, NY, TX)
-- `limit` - Maximum number of results
-- `q` - Search query
+- `limit` - Maximum number of results (default: 50)
+- `start` - Starting index for pagination
+- `q` - Search query for text matching
 
-## Application Examples
+⚠️ **Note:** For complete parameter details, rate limits, and response formats, see [USAGE.md](./USAGE.md)
+
+---
+
+## 🚀 Application Examples
 
 **1. Trip Planner & Itinerary Builder**
 Help visitors plan comprehensive trips to national parks.
@@ -234,8 +253,11 @@ Help visitors learn about and observe wildlife safely.
 - Citizen science reporting features
 - Seasonal migration patterns
 
-## Resources
+---
 
-- Documentation: https://www.nps.gov/subjects/developer/api-documentation.htm
-- Get API Key: https://www.nps.gov/subjects/developer/get-started.htm
-- Park Codes: https://www.nps.gov/subjects/developer/guides.htm
+## 📚 Resources
+
+- 📖 **API Documentation:** https://www.nps.gov/subjects/developer/api-documentation.htm
+- 🔑 **Get API Key:** https://www.nps.gov/subjects/developer/get-started.htm
+- 📋 **Park Codes Guide:** https://www.nps.gov/subjects/developer/guides.htm
+- 📘 **Detailed Usage Guide:** [USAGE.md](./USAGE.md)
