@@ -160,6 +160,80 @@ if data['data']:
 - `limit` - Maximum number of results
 - `q` - Search query
 
+## Application Examples
+
+**1. Trip Planner & Itinerary Builder**
+Help visitors plan comprehensive trips to national parks.
+- Search parks by location, activity, or season
+- Create multi-day itineraries
+- Show campground and lodging availability
+- Display visitor center hours and services
+- Provide activity recommendations based on interests
+- Export trip plans as PDF
+
+**2. Real-Time Park Conditions Dashboard**
+Display current conditions and alerts for park visitors.
+- Show active alerts (closures, weather, wildlife)
+- Display road conditions and accessibility
+- Show current wait times at entrances
+- Provide safety warnings
+- Map of affected areas
+- Subscribe to alerts for specific parks
+
+**3. Park Discovery & Exploration App**
+Help people find and learn about national parks.
+- Browse parks by state or region
+- Filter by activities available
+- Display photos and descriptions
+- Show proximity to user location
+- Read visitor reviews and tips
+- Virtual tour features
+
+**4. Educational Platform for Students**
+Teach students about national parks and conservation.
+- Interactive park maps
+- Historical information and timelines
+- Ecology and wildlife information
+- Virtual field trips
+- Curriculum-aligned lesson plans
+- Quiz and trivia features
+
+**5. Activity Finder & Recreation Planner**
+Match visitors with parks based on desired activities.
+- Search by activity type (hiking, camping, fishing, etc.)
+- Show difficulty levels and accessibility
+- Display trail maps and lengths
+- Show required permits and fees
+- Link to reservation systems
+- Weather-appropriate recommendations
+
+**6. Campground Reservation Helper**
+Streamline the campground research and booking process.
+- Display campground amenities
+- Show availability calendars
+- Filter by RV accessibility, group sites, etc.
+- Display photos and reviews
+- Link to official reservation systems
+- Show nearby alternatives if full
+
+**7. Park Accessibility Guide**
+Help visitors with disabilities plan accessible visits.
+- List accessible trails and facilities
+- Show wheelchair-accessible campgrounds
+- Display sensory-friendly programs
+- Provide service animal policies
+- Show accessible transportation options
+- Audio descriptions of exhibits
+
+**8. Wildlife & Nature Tracking App**
+Help visitors learn about and observe wildlife safely.
+- Recent wildlife sightings by park
+- Best times/locations for viewing
+- Safety guidelines for each species
+- Photo identification guides
+- Citizen science reporting features
+- Seasonal migration patterns
+
 ## Resources
 
 - Documentation: https://www.nps.gov/subjects/developer/api-documentation.htm

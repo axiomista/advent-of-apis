@@ -139,6 +139,80 @@ for airline in airlines['data']:
 - `airline_name` / `airline_iata` - Filter by airline
 - `dep_iata` / `arr_iata` - Filter by departure/arrival airport
 
+## Application Examples
+
+**1. Flight Tracking Dashboard**
+Real-time flight monitoring platform for travelers.
+- Track multiple flights simultaneously
+- Real-time status updates (scheduled, delayed, cancelled, landed)
+- Display flight path on interactive map
+- Show departure/arrival gates and terminals
+- Display aircraft type and registration
+- Historical on-time performance
+
+**2. Airport Information Board**
+Digital departure/arrival board for websites or apps.
+- Live departures and arrivals for any airport
+- Filter by airline or destination
+- Show gate assignments and terminal info
+- Display flight status with color coding
+- Auto-refresh every 30-60 seconds
+- Support for multiple airport locations
+
+**3. Travel Booking Platform**
+Integrate flight data into booking systems.
+- Search flights by route and date
+- Display available airlines and flight times
+- Show historical pricing trends
+- Compare flight durations and layovers
+- Display aircraft amenities
+- Show airport transfer times
+
+**4. Flight Analytics Tool**
+Business intelligence for aviation industry.
+- Analyze on-time performance by airline/route
+- Track seasonal flight patterns
+- Calculate average delays by airport
+- Visualize route profitability
+- Monitor aircraft utilization rates
+- Generate industry reports
+
+**5. Travel Alert System**
+Notify travelers of flight changes.
+- Email/SMS notifications for flight status changes
+- Alert for gate changes or delays
+- Notify of cancellations
+- Send departure reminders
+- Multi-flight tracking for connections
+- Customizable alert preferences
+
+**6. Aviation Weather Correlator**
+Link flight delays to weather conditions.
+- Overlay weather data on flight paths
+- Correlate delays with weather events
+- Predict disruptions based on forecast
+- Show alternate routes avoiding weather
+- Display airport weather conditions
+- Historical weather impact analysis
+
+**7. Aircraft Spotting App**
+Help aviation enthusiasts track and log aircraft.
+- Search flights by aircraft registration
+- Display aircraft type and age
+- Log spotted aircraft with photos
+- Track rare aircraft movements
+- Share sightings with community
+- Map of aircraft locations
+
+**8. Corporate Flight Manager**
+Business aviation management tool.
+- Track company-related flights for employees
+- Automated expense tracking
+- Travel policy compliance checking
+- Trip planning with preferred airlines
+- Reporting for travel budgets
+- Integration with corporate calendar
+
 ## Resources
 
 - Documentation: https://aviationstack.com/documentation

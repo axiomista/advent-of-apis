@@ -85,6 +85,72 @@ sites = response.json()
 print(sites)
 ```
 
+## Application Examples
+
+**1. Flood Warning & Monitoring System**
+Monitor river levels and provide real-time flood alerts to communities.
+- Track stream gage heights at critical locations
+- Send alerts when water levels exceed thresholds
+- Display historical flood data and trends
+- Show forecast conditions based on real-time data
+- Map flood-prone areas with current conditions
+
+**2. Agricultural Water Management Dashboard**
+Help farmers and water districts optimize irrigation and water use.
+- Monitor groundwater levels in agricultural regions
+- Track precipitation and streamflow data
+- Calculate water availability for irrigation
+- Display drought indicators and trends
+- Compare current conditions to historical averages
+
+**3. Environmental Research Platform**
+Support scientific research on water resources and ecosystems.
+- Access long-term water quality datasets
+- Analyze temperature and dissolved oxygen trends
+- Study seasonal flow patterns
+- Export data for statistical analysis
+- Visualize spatial and temporal patterns
+
+**4. Recreational Water Information App**
+Provide real-time conditions for fishing, boating, and recreation.
+- Show current streamflow for fishing locations
+- Display water temperature at recreation sites
+- Alert users to unsafe water conditions
+- Show historical best times for activities
+- Map nearby monitoring sites
+
+**5. Municipal Water Supply Dashboard**
+Help water utilities monitor source water conditions.
+- Track reservoir levels and inflows
+- Monitor water quality parameters
+- Forecast water availability
+- Alert to contamination events
+- Generate compliance reports
+
+**6. Drought Monitoring & Response Tool**
+Track drought conditions and support water management decisions.
+- Compare current flows to historical percentiles
+- Map low-flow conditions across regions
+- Track groundwater level declines
+- Generate drought severity indicators
+- Support water restriction decisions
+
+**7. Climate Change Impact Analysis**
+Analyze long-term trends in water resources.
+- Visualize multi-decade streamflow trends
+- Analyze changes in seasonal patterns
+- Study glacier and snowmelt timing shifts
+- Compare precipitation to runoff
+- Project future water availability
+
+**8. Stormwater Management System**
+Monitor urban runoff and drainage systems.
+- Track real-time precipitation
+- Monitor storm drain discharge
+- Calculate runoff volumes
+- Alert to combined sewer overflows
+- Support green infrastructure planning
+
 ## Resources
 
 - Documentation: https://waterservices.usgs.gov/

@@ -186,6 +186,68 @@ All responses are in JSON format with a `status` field indicating success or fai
 }
 ```
 
+## Application Examples
+
+**1. Legislative Tracking & Alert System**
+Monitor specific bills or topics and send notifications when status changes occur.
+- Track bills by keyword, sponsor, or subject
+- Send email/SMS alerts on bill progress
+- Display bill timelines and next steps
+- Show voting records
+
+**2. Civic Engagement Platform**
+Help citizens understand and engage with legislation affecting their community.
+- Search bills by topic relevant to users
+- Simplify legislative language
+- Show local impact of state/federal legislation
+- Enable constituent contact with representatives
+- Track user's positions on bills
+
+**3. Policy Research & Analysis Tool**
+Analyze legislative trends, patterns, and policy outcomes across states.
+- Compare similar legislation across states
+- Track policy diffusion (how laws spread)
+- Analyze voting patterns and party alignment
+- Generate reports on legislative productivity
+- Identify model legislation
+
+**4. Advocacy Campaign Manager**
+Coordinate advocacy efforts around specific legislation.
+- Monitor priority bills
+- Track co-sponsors and support levels
+- Coordinate grassroots lobbying
+- Generate talking points from bill analysis
+- Schedule actions around committee hearings
+
+**5. Government Transparency Dashboard**
+Increase transparency by making legislative data accessible and understandable.
+- Visualize bill progress through legislative process
+- Show legislator sponsorship patterns
+- Display committee activity
+- Track campaign finance correlation with voting
+- Provide plain-language bill summaries
+
+**6. Legislative Calendar & Scheduling App**
+Help stakeholders stay informed about hearings and legislative events.
+- Display committee hearings from calendar data
+- Send reminders for important dates
+- Show bill deadlines
+- Track session schedules
+
+**7. Comparative Policy Analysis Tool**
+Research how different states approach similar issues.
+- Use getSearch to find bills on specific topics across states
+- Compare text and provisions
+- Track adoption rates of policy approaches
+- Analyze effectiveness indicators
+
+**8. Legislative Data Journalism Platform**
+Power investigative journalism with comprehensive legislative data.
+- Identify patterns in legislative activity
+- Track special interest influence
+- Analyze amendment patterns
+- Discover identical bill language across states
+
 ## Resources
 
 - Documentation: https://legiscan.com/legiscan

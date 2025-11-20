@@ -101,6 +101,72 @@ print(f"Found {earthquakes['metadata']['count']} earthquakes")
 - `minmagnitude` / `maxmagnitude` - Magnitude range
 - `latitude` / `longitude` / `maxradius` - Circular search area
 
+## Application Examples
+
+**1. Real-time Earthquake Alert App**
+Notify users of recent earthquakes in their area or globally.
+- Push notifications for significant earthquakes
+- Filter by magnitude threshold and location
+- Show time since earthquake occurred
+- Display distance from user location
+- Link to detailed USGS event pages
+
+**2. Interactive Earthquake Map**
+Visualize earthquake activity on an interactive map.
+- Display earthquakes as points with magnitude-based sizing and color coding by age
+- Cluster earthquakes in dense regions
+- Show earthquake details on click
+- Filter by magnitude, time range, and depth
+- Animate earthquake sequences over time
+
+**3. Seismic Hazard Education Platform**
+Help students and public understand earthquake science.
+- Visualize plate boundaries and earthquake patterns
+- Show relationship between depth and tectonic setting
+- Display aftershock sequences
+- Explain magnitude scales and intensity
+- Compare earthquake energy and impacts
+
+**4. Emergency Response Dashboard**
+Support disaster response coordination after major earthquakes.
+- Monitor large earthquakes globally
+- Track aftershock activity
+- Display PAGER alerts for casualties/economic losses
+- Show ShakeMap intensity estimates
+- Integrate with response team communications
+
+**5. Seismic Research Tool**
+Support academic and scientific earthquake research.
+- Query historical earthquake catalog
+- Export data for statistical analysis
+- Analyze spatial and temporal patterns
+- Study earthquake clustering and sequences
+- Compare different magnitude scales
+
+**6. Infrastructure Monitoring System**
+Track earthquakes near critical infrastructure.
+- Monitor earthquakes near pipelines, dams, facilities
+- Alert when events exceed thresholds
+- Log earthquake exposure history
+- Calculate cumulative seismic impacts
+- Generate compliance reports
+
+**7. Travel Safety App**
+Provide earthquake safety information for travelers.
+- Show recent earthquakes at destination
+- Display seismic risk ratings by region
+- Provide earthquake preparedness tips
+- Alert to significant events while traveling
+- Link to local emergency resources
+
+**8. Insurance Risk Assessment Platform**
+Support property and casualty insurance analysis.
+- Analyze historical earthquake activity
+- Calculate exposure to seismic hazards
+- Model potential losses from earthquakes
+- Track events for claims processing
+- Generate risk reports by portfolio
+
 ## Resources
 
 - Documentation: https://earthquake.usgs.gov/fdsnws/event/1/

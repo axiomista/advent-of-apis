@@ -134,6 +134,80 @@ fetch(url)
 
 All responses are in JSON format with a `message` field indicating success or failure. Successful responses have `"message": "success"`.
 
+## Application Examples
+
+**1. Real-Time ISS Tracker**
+Display current ISS location on an interactive world map.
+- Update ISS position every few seconds
+- Show orbital path and trajectory
+- Display speed and altitude
+- Zoom to current location
+- Show day/night overlay on map
+- Indicate when ISS is overhead
+
+**2. ISS Viewing Calculator**
+Help people find the best times to see the ISS.
+- Enter user location for personalized viewing times
+- Calculate visibility windows based on time of day and weather
+- Show compass direction and elevation angle
+- Set reminders for optimal viewing
+- Display magnitude (brightness) of pass
+- Show duration of visible pass
+
+**3. Space Education Platform**
+Teach students about the ISS and space missions.
+- Real-time ISS location visualization
+- Lessons about orbital mechanics
+- Information about ISS modules and structure
+- Timeline of ISS construction and missions
+- Astronaut biographies
+- Live feeds from ISS when available
+
+**4. Astronaut Directory**
+Track who is currently in space.
+- List all people currently in space
+- Show their spacecraft assignment
+- Display astronaut photos and bios
+- Show mission duration
+- Track crew changes over time
+- Display country of origin
+
+**5. ISS Desktop Widget**
+Lightweight desktop application for ISS enthusiasts.
+- Minimal interface showing current position
+- System tray notifications when ISS is overhead
+- Quick access to detailed information
+- Low resource usage
+- Auto-start with operating system
+- Customizable update intervals
+
+**6. Mobile ISS Spotter**
+Smartphone app for ISS tracking on the go.
+- GPS-based location detection
+- Augmented reality view to point at ISS
+- Notifications when ISS is visible nearby
+- Offline mode with cached data
+- Share sightings with friends
+- Photo integration for captures
+
+**7. Space Station Dashboard**
+Comprehensive information hub for space enthusiasts.
+- Current ISS location and altitude
+- Number of people in space
+- Recent spacewalks and activities
+- Upcoming cargo missions
+- Live Twitter feeds from astronauts
+- ISS research highlights
+
+**8. STEM Classroom Tool**
+Interactive tool for science education.
+- Project ISS location on classroom screen
+- Calculate distance from school to ISS
+- Show time zones ISS passes through
+- Demonstrate orbital velocity concepts
+- Track ISS over multiple class periods
+- Export data for student projects
+
 ## Resources
 
 - Documentation: http://open-notify.org/
