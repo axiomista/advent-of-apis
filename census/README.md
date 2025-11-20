@@ -51,6 +51,44 @@ fetch(url)
   .catch(error => console.error('Error:', error));
 ```
 
+## Application Examples
+
+**1. Demographic Research Dashboard**
+Visualize and analyze population trends across geographic areas.
+- Compare demographic changes over time
+- Display population by age, gender, and ethnicity
+- Interactive maps with color-coded data layers
+- Generate custom reports and charts
+- Export data for statistical analysis
+- Side-by-side geographic comparisons
+
+**2. Business Location Analyzer**
+Help businesses choose optimal locations based on demographics.
+- Analyze target customer demographics by area
+- Display income levels and spending patterns
+- Show education levels and employment data
+- Compare multiple potential locations
+- Calculate market size and opportunity
+- Generate location recommendation reports
+
+**3. Community Health Mapper**
+Correlate health outcomes with demographic and socioeconomic data.
+- Map health indicators by census tract
+- Overlay income, education, and housing data
+- Identify health disparities and gaps
+- Track changes over time
+- Generate equity reports
+- Support public health planning decisions
+
+**4. Housing Market Insights Tool**
+Analyze housing trends and affordability metrics.
+- Display housing costs relative to income
+- Show vacancy rates and occupancy trends
+- Compare rental vs ownership patterns
+- Track new construction and growth areas
+- Calculate affordability indices
+- Forecast housing demand by area
+
 ## Resources
 
 - Documentation: https://www.census.gov/data/developers/data-sets.html
